@@ -1,0 +1,177 @@
+body
+{
+    margin:0;
+    background: linear-gradient(to  bottom, red,black);
+
+}
+.link
+{
+    background: linear-gradient(to  bottom, red,black);
+    margin:0px;
+    padding:30px;
+    position: fixed;
+    width:1400px;
+  
+}
+a:hover
+{
+    color:rgba(215, 238, 9, 0.322);
+    font-weight: bold;
+}
+a:active
+{
+    color:#f8d409;
+    text-decoration:underline;
+}
+.link0 , .link1 , .link2 , .link3 
+{
+    position:absolute;
+    font-size:30px;
+    text-decoration:none;
+    color: ivory;
+}
+.link0
+{  
+ top:5px;
+ right:115px;
+}
+.link1
+{ 
+ top:5px;
+ left:100px;
+}
+.link2
+{ 
+ top:5px;
+ left:400px;
+}
+.link3
+{ 
+ top:5px;
+ left:700px;
+}
+#image
+{
+    width:1348px;
+    height:800px;
+    border-radius:5px;
+}
+.imageI
+{
+    width:420px;
+    height:220px;
+    border-radius:10px;
+    margin: 10px;
+    display: inline;
+    cursor:pointer;
+}
+.imageI:hover
+{
+  opacity:0.5;
+}
+.paragraph
+{
+    font-family:fantasy;
+    font-size: 50px;
+    text-align:center;
+    margin:0px;
+    color:dimgrey;
+}
+
+.video
+{
+    margin: 0px 380px  ;
+    width:600px;
+    height:300px;
+}
+
+.imageparagraph
+{
+    margin: 0px;
+    background-image: url('../res/digitale.jpg');
+    width:1348px;
+    height: 800px;
+    font-size: 200px;
+    text-align: center;
+    color: rgba(252, 50, 0, 0.473);
+
+}
+input[type="button"] 
+{
+ 
+width:90px;
+height:30px;
+cursor: pointer;
+}
+input[name="bold"]
+{
+    width:100px;
+    margin:2px 2px 2px 390px;
+    cursor: pointer;
+
+}
+select[name="size"]
+{
+ width:70px;
+ height:30px;
+}
+select[ name="browses"]
+{
+    width:90px;
+    height:30px; 
+}
+#msg
+{
+    color: indigo;
+    font:30px/40px helvetica,arial;
+    margin-left: 600px;
+
+}
+textarea
+{
+    margin-left: 460px;
+}
+.imageparagraph1
+{
+    margin: 0px;
+    background-image: url('../res/demo day.jpg');
+    width:1348px;
+    height: 800px;
+    font-size: 200px;
+    text-align: center;
+    color: rgba(252, 50, 0, 0.473);
+
+}
+fieldset
+{
+    text-align: center;
+    font:30px/40px helvetica,arial;
+}
+input[name="Adresse e-mail"] , input[name="password"]
+{
+    width: 400px;
+    height: 30px;
+}
+input[ type="submit"]
+{
+    cursor: pointer;
+    margin-left: 700px;
+    width: 100px;
+    height:40px;
+    background: linear-gradient(to bottom , red,black );
+    color: lavender;
+    padding: 10px;
+    border:none
+}
+.link4
+{
+    position: absolute;
+    top:1070px;
+    bottom: 0px;
+    right:70px;
+    color: lavender;
+    text-decoration: none;
+    font-size: initial;
+
+}
+
